@@ -1,6 +1,7 @@
 :root {
     --primary: #005F00;
     --secondary: #636E63;
+    --tertiary: #D5EDD5;
     --accent: #FFFFFF;
     --light: #FFFFFF;
 }
@@ -10,15 +11,21 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
     font-size: 2rem;
 }
 
 p {
     font-size: 16px;
+    margin: 0;
+    line-height: 1.5rem;
 }
 
 a {
@@ -44,6 +51,27 @@ header {
     justify-content: end;
 }
 
+.btn-secondary {
+    text-decoration: none;
+    background-color: var(--accent);
+    color: var(--primary);
+    padding: 10px 25px;
+}
+
+.btn-secondary:hover {
+    background-color: var(--primary);
+    color: var(--accent);
+}
+
+.empty {
+    text-align: center;
+    padding: 5rem;
+}
+
+.empty p {
+    font-size: 2rem;
+}
+
 
 /* Menu Programs */
 .programs-menu {
@@ -60,8 +88,38 @@ header {
     background-color: var(--secondary);
 }
 
-footer{
+footer {
     padding: 50px;
     background-color: var(--primary);
     color: var(--light);
+}
+
+.coursemenu {
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 15px;
+    gap: 15px;
+    justify-content: end;
+}
+
+
+.coursemenu a {
+    background-color: var(--secondary);
+    color: var(--light) !important;
+    cursor: pointer;
+}
+
+.coursemenu a:hover {
+    background-color: var(--accent);
+    color: var(--primary) !important;
+}
+
+.coursebox {
+    background-color: var(--tertiary);
+}
+
+.btn-content{
+    text-align: end;
 }
