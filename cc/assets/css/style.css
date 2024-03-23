@@ -6,6 +6,10 @@
     --light: #FFFFFF;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 h1 {
     font-size: 4rem;
 }
@@ -123,3 +127,5 @@ footer {
 .btn-content{
     text-align: end;
 }
+
+/* Media Query *
