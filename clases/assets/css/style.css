@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'work_sans_regular';
+    src: url('../fonts/worksans-regular.eot');
+    src: url('../fonts/worksans-regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/worksans-regular.woff2') format('woff2'),
+        url('../fonts/worksans-regular.woff') format('woff'),
+        url('../fonts/worksans-regular.ttf') format('truetype'),
+        url('../fonts/worksans-regular.svg#work_sansregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'work_sans_semibold';
+    src: url('../fonts/worksans-semibold.eot');
+    src: url('../fonts/worksans-semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/worksans-semibold.woff2') format('woff2'),
+        url('../fonts/worksans-semibold.woff') format('woff'),
+        url('../fonts/worksans-semibold.ttf') format('truetype'),
+        url('../fonts/worksans-semibold.svg#work_sansregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+:root {
+    --primary: #732828;
+    --secondary: #285773;
+    --tertiary: #C8C788;
+    --light: #FFFFFF;
+    --dark: #252525;
+    --h: 'work_sans_semibold';
+    --strong: 'work_sans_semibold';
+    --p: 'work_sans_regular';
+    --a: 'work_sans_regular';
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--h);
+    color: var(--primary);
+}
+
+body {
+    font-family: var(--p);
+}
+
+p {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 3.25rem;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 2.75rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+    line-height: 2rem;
+}
+
+h4 {
+    font-size: 2rem;
+    line-height: 1.25rem;
+}
+
+pre {
+    background-color: var(--dark);
+    color: var(--tertiary);
+    border-radius: 16px;
+    padding: 16px;
+    text-align: left !important;
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.bg-secondary {
+    background-color: var(--secondary);
+}
+
+.bg-tertiary {
+    background-color: var(--tertiary);
+}
+
+.bg-light {
+    background-color: var(--light);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.color-primary {
+    color: var(--primary);
+}
+
+.color-secondary {
+    color: var(--secondary);
+}
+
+.color-tertiary {
+    color: var(--tertiary);
+}
+
+.color-light {
+    color: var(--light);
+}
+
+.color-dark {
+    color: var(--dark);
+}
+
+.underline-1{
+    border-bottom: 2px solid var(--secondary);
+    width: 100%;
+}
+
+.underline-2{
+    border-bottom: 2px solid var(--secondary);
+    width: 75%;
+}
+
+.underline-3{
+    border-bottom: 2px solid var(--secondary);
+    width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+}
