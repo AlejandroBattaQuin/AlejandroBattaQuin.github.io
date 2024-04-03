@@ -1,0 +1,16 @@
+:root {
+    /*Colors*/
+    --primary: #FFCB05;
+    --secondary: #00274C;
+    --accent: #FFCB05;
+    --dark: #131516;
+    --light: #FFFFFF;
+    --grey: #F8F8F8;
+
+    /*Fonts*/
+    --title: 'Arial';
+    --p: 'Arial';
+    --strong: 'Arial';
+    --em: 'Arial';
+    --link: 'Arial'
+}
