@@ -1,0 +1,186 @@
+/**** START GENERAL STYLES ****/
+
+:root{
+    --primary: #800000;
+    --secondary: #808080;
+    --text: #000000;
+    --dark: #252525;
+    --light: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    color: var(--text);
+}
+
+p{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.5rem;
+}
+
+h5{
+    font-size: 2rem;
+}
+
+label{
+    display: none;
+}
+
+/**** END GENERAL STYLES ****/
+
+/**** START BODY STYLES ****/
+
+body{
+    background-color: var(--light);
+}
+
+/*** START HEADER STYLES ***/
+
+header{
+    padding: 1% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--secondary);
+}
+
+header nav{
+    align-content: center;
+}
+
+header nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li a{
+    color: var(--text);
+    padding: 0 5px;
+}
+
+header nav ul li a:hover{
+    color: var(--primary);
+}
+
+/*** END HEADER STYLES ***/
+
+/*** START MAIN STYLES ***/
+
+main{
+    margin: 2%;
+}
+
+section {
+    padding: 2.5rem 1rem;
+}
+
+section h2{
+    padding: 1rem 0;
+}
+
+/** START DESCRIPTION STYLES **/
+
+
+#description {
+    text-align: center;
+}
+
+#description div p{
+    padding: 0 8rem;
+}
+
+/** END DESCRIPTION STYLES **/
+
+/** START CATALOGO STYLES **/
+
+#catalogo h2 {
+    text-align: center;
+}
+
+#catalogo #navigator {
+    text-align: end;
+}
+
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    gap: 5px;
+    /* flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding-bottom: 15px; */
+}
+
+.category{
+    min-width: 100px;
+    padding: 10px 25px;
+    background-color: var(--secondary);
+}
+
+.category a{
+    color: var(--light);
+}
+
+.books{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+
+.book{
+    width: 45%;
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.book-image{
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.book-image img{
+    width: 100%;
+}
+.book-text{
+    width: 45%;
+}
+
+/*** START FOOTER STYLES ***/
+footer{
+ background-color: var(--secondary);
+}
+/*** END FOOTER STYLES ***/
+
+/*** END MAIN STYLES ***/
+
+/**** END BODY STYLES ****/

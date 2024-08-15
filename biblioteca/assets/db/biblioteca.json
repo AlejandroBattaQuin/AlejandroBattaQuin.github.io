@@ -1,0 +1,14 @@
+[
+    {
+        "cod":"123",
+        "titulo": "Lorem 1",
+        "subtitulo": "Sub Lorem 1",
+        "autor": "Autor 1"
+    },
+    {
+        "cod":"456",
+        "titulo": "Lorem 2",
+        "subtitulo": "Sub Lorem 2",
+        "autor": "Autor 2"
+    }
+]
