@@ -1,14 +1,16 @@
 [
     {
-        "cod":"123",
+        "cod": "123",
         "titulo": "Lorem 1",
         "subtitulo": "Sub Lorem 1",
-        "autor": "Autor 1"
+        "autor": "Autor 1",
+        "resumen": "Lorem 1 ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem quas dicta fugiat, minus cupiditate, sapiente unde laboriosam eligendi provident qui porro. Nam officiis maxime sed repellat, quasi neque ad maiores."
     },
     {
-        "cod":"456",
+        "cod": "456",
         "titulo": "Lorem 2",
         "subtitulo": "Sub Lorem 2",
-        "autor": "Autor 2"
+        "autor": "Autor 2",
+        "resumen": "Lorem 2 ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem quas dicta fugiat, minus cupiditate, sapiente unde laboriosam eligendi provident qui porro. Nam officiis maxime sed repellat, quasi neque ad maiores."
     }
 ]

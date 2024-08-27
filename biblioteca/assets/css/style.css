@@ -1,47 +1,48 @@
 /**** START GENERAL STYLES ****/
 
-:root{
-    --primary: #800000;
-    --secondary: #808080;
+:root {
+    --primary: #02541d;
+    --secondary: #8AB096;
+    --accent: #353535;
     --text: #000000;
     --dark: #252525;
     --light: #FFFFFF;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     color: var(--text);
 }
 
-p{
+p {
     font-size: 16px;
 }
 
-h1{
+h1 {
     font-size: 4rem;
 }
 
-h2{
+h2 {
     font-size: 3.5rem;
 }
 
-h3{
+h3 {
     font-size: 3rem;
 }
 
-h4{
+h4 {
     font-size: 2.5rem;
 }
 
-h5{
+h5 {
     font-size: 2rem;
 }
 
-label{
+label {
     display: none;
 }
 
@@ -49,25 +50,25 @@ label{
 
 /**** START BODY STYLES ****/
 
-body{
+body {
     background-color: var(--light);
 }
 
 /*** START HEADER STYLES ***/
 
-header{
+header {
     padding: 1% 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: var(--secondary);
+    background-color: var(--primary);
 }
 
-header nav{
+header nav {
     align-content: center;
 }
 
-header nav ul{
+header nav ul {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -76,12 +77,12 @@ header nav ul{
     list-style: none;
 }
 
-header nav ul li a{
+header nav ul li a {
     color: var(--text);
     padding: 0 5px;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     color: var(--primary);
 }
 
@@ -89,7 +90,7 @@ header nav ul li a:hover{
 
 /*** START MAIN STYLES ***/
 
-main{
+main {
     margin: 2%;
 }
 
@@ -97,7 +98,7 @@ section {
     padding: 2.5rem 1rem;
 }
 
-section h2{
+section h2 {
     padding: 1rem 0;
 }
 
@@ -108,7 +109,7 @@ section h2{
     text-align: center;
 }
 
-#description div p{
+#description div p {
     padding: 0 8rem;
 }
 
@@ -124,28 +125,14 @@ section h2{
     text-align: end;
 }
 
-
-.categories{
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    gap: 5px;
-    /* flex-wrap: nowrap;
-    overflow-x: scroll;
-    padding-bottom: 15px; */
+#catalogo #navigator input{
+    width: 25%;
+    padding: 5px;
 }
 
-.category{
-    min-width: 100px;
-    padding: 10px 25px;
-    background-color: var(--secondary);
-}
+/* START CATALOGO BOOKS STYLES */
 
-.category a{
-    color: var(--light);
-}
-
-.books{
+.books {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -153,7 +140,7 @@ section h2{
 
 }
 
-.book{
+.book {
     width: 45%;
     border: 2px solid var(--primary);
     border-radius: 8px;
@@ -162,23 +149,32 @@ section h2{
     flex-direction: row;
 }
 
-.book-image{
+.book-image {
     width: 45%;
     display: flex;
     align-items: center;
 }
 
-.book-image img{
+.book-image img {
     width: 100%;
 }
-.book-text{
+
+.book-text {
     width: 45%;
 }
 
+/* END CATALOGO BOOKS STYLES */
+
+/** END CATALOGO STYLES **/
+
 /*** START FOOTER STYLES ***/
-footer{
- background-color: var(--secondary);
+
+footer {
+    padding: 5%;
+    text-align: center;
+    background-color: var(--primary);
 }
+
 /*** END FOOTER STYLES ***/
 
 /*** END MAIN STYLES ***/
